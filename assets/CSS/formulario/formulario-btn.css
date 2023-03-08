@@ -1,0 +1,10 @@
+.formulario__btn {
+    background-color: #2A7AE4;
+    color: #FFF;
+    border: none;
+    padding: 0.8rem 0.9rem;
+    font-size: 0.7rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}

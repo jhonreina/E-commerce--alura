@@ -54,8 +54,14 @@
 }
 
 .container{   
-    padding: 0.8rem;
+    padding: 0.8rem 0.8rem 0 0.8rem ;
     color: #464646;
 }
 
+.container__footer{
+    padding: 0.8rem 0.8rem 0 0.8rem ;
+    color: #464646;
+    background-color: #EAF2FD;
+    
+}
 
