@@ -1,0 +1,8 @@
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0.8rem 0 0 0;
+}
