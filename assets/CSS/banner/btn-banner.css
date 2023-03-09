@@ -5,5 +5,10 @@
     font-size: 0.7rem;
     padding:  0.4rem 0.7rem;
     margin-top: 0.5rem;
+}
 
+@media screen and (min-width:768px) {
+    .btn__banner{
+        padding: 0.6rem 0.9rem;
+    }
 }

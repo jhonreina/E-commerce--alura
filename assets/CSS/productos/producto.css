@@ -6,3 +6,21 @@
     justify-content: space-between;
     width: 48%;
 }
+.block{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .producto{
+        width: 23%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .producto{
+        width: 16%;
+    }
+    .block{
+        display: inline-flex;
+    }   
+}

@@ -20,10 +20,13 @@
     padding: 0.4rem 2rem;
     font-weight: 500;
     font-size: 0.7rem;
+    margin-right: 2rem;
 }
 .buscar {
-    display: none;
-    position:absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
 }
 
 .input {
@@ -40,6 +43,8 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    display: none;
+    margin-left: 2rem;
 }
 
 .buscar__icono{
@@ -51,6 +56,7 @@
     line-height: 17px;
     text-align: center;
     color: #A2A2A2;
+    display: none;
 }
 
 .container{   
@@ -62,6 +68,49 @@
     padding: 0.8rem 0.8rem 0 0.8rem ;
     color: #464646;
     background-color: #EAF2FD;
+    width: 100%;
     
 }
 
+@media screen and (min-width:768px) {
+    .input{
+        display: block;
+    }
+    .icono{
+        display: none;
+    }
+    .buscar__icono{
+        display: block;
+    }
+    .login{
+        margin-right: 0px;
+    }
+    .cabecera{
+        margin: 0.8rem 1.6rem;
+    }
+    .container{
+        padding: 1.6rem 1.6rem 0 1.6rem;
+    }
+    .container__footer{
+        padding-bottom: 0.8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
+@media screen and (min-width:1024px){
+    .todo{
+        width: 85%;
+        margin: 0 auto;        
+    }
+    .cabecera{
+         margin: 0.8rem 0;
+    }
+    .container__footer{
+        padding: 1.6rem 0;
+    }
+   
+   
+}

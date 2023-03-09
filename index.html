@@ -38,15 +38,19 @@
 </head>
 
 <body>
-    <header class="cabecera">
-        <img src="./assets/IMG/Logo.svg" alt="logo" class="logo">
-        <div class="buscar">
-            <input type="text" placeholder="¿Que deseas buscar?" class="input">
-            <a href="#"><img src="./assets/IMG/Icone.svg" alt="buscar" class="buscar__icono"></a>
-        </div>
-        <button class="login">Login</button>
-        <a href="#"><img src="./assets/IMG/Icone.svg" alt="icono"></a>
-    </header>
+    <div class="todo">
+        <header class="cabecera">
+            <div class="buscar">
+                <img src="./assets/IMG/Logo.svg" alt="logo" class="logo">
+                <input type="text" placeholder="¿Que deseas buscar?" class="input">
+                <a href="#"><img src="./assets/IMG/Icone.svg" alt="buscar" class="buscar__icono"></a>
+            </div>
+            <div>
+                <button class="login">Login</button>
+                <a href="#"><img src="./assets/IMG/Icone.svg" alt="icono" class="icono"></a>
+            </div>
+        </header>
+    </div>
     <section class="banner">
         <div class="imagen__banner"></div>
         <div class="contenido__banner">
@@ -55,7 +59,7 @@
             <button class="btn__banner">Ver Consolas</button>
         </div>
     </section>
-    <main class="container">
+    <main class="container todo">
         <div class="start__wars--cabecera">
             <h2 class="start__wars--title">Star Wars</h2>
             <div>
@@ -90,6 +94,22 @@
             </div>
             <div class="producto">
                 <img src="./assets/IMG/Skill (2).png" alt="producto" class="producto__imagen">
+                <div class="producto__contenido">
+                    <h4 class="producto__titulo">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60,00</p>
+                    <a href="#" class="producto__ver">ver producto</a>
+                </div>
+            </div>
+            <div class="producto block">
+                <img src="./assets/IMG/Skill(12).png" alt="producto" class="producto__imagen">
+                <div class="producto__contenido">
+                    <h4 class="producto__titulo">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60,00</p>
+                    <a href="#" class="producto__ver">ver producto</a>
+                </div>
+            </div>
+            <div class="producto block">
+                <img src="./assets/IMG/Skill(13).png" alt="producto" class="producto__imagen">
                 <div class="producto__contenido">
                     <h4 class="producto__titulo">Producto XYZ</h4>
                     <p class="producto__precio">$ 60,00</p>
@@ -137,6 +157,22 @@
                      <a href="#" class="producto__ver">ver producto</a>
                  </div>
              </div>
+             <div class="producto block">
+                 <img src="./assets/IMG/Skill(14).png" alt="producto" class="producto__imagen">
+                 <div class="producto__contenido">
+                     <h4 class="producto__titulo">Producto XYZ</h4>
+                     <p class="producto__precio">$ 60,00</p>
+                     <a href="#" class="producto__ver">ver producto</a>
+                 </div>
+             </div>
+             <div class="producto block">
+                 <img src="./assets/IMG/Skill(15).png" alt="producto" class="producto__imagen">
+                 <div class="producto__contenido">
+                     <h4 class="producto__titulo">Producto XYZ</h4>
+                     <p class="producto__precio">$ 60,00</p>
+                     <a href="#" class="producto__ver">ver producto</a>
+                 </div>
+             </div>
          </section>
            <div class="start__wars--cabecera">
                <h2 class="start__wars--title">Diversos</h2>
@@ -178,28 +214,46 @@
                        <a href="#" class="producto__ver">ver producto</a>
                    </div>
                </div>
+               <div class="producto block">
+                   <img src="./assets/IMG/Skill(16).png" alt="producto" class="producto__imagen">
+                   <div class="producto__contenido">
+                       <h4 class="producto__titulo">Producto XYZ</h4>
+                       <p class="producto__precio">$ 60,00</p>
+                       <a href="#" class="producto__ver">ver producto</a>
+                   </div>
+               </div>
+               <div class="producto block">
+                   <img src="./assets/IMG/Skill(17).png" alt="producto" class="producto__imagen">
+                   <div class="producto__contenido">
+                       <h4 class="producto__titulo">Producto XYZ</h4>
+                       <p class="producto__precio">$ 60,00</p>
+                       <a href="#" class="producto__ver">ver producto</a>
+                   </div>
+               </div>
            </section>
     </main>
     <section class="container__footer">
-        <section class="contacto">
-            <img src="./assets/IMG/Logo (1).svg" alt="logo2">
-            <ul class="contacto__lista">
-                <li class="contacto__item"><a href="#">Quienes somos</a></li>
-                <li class="contacto__item"><a href="#">Política de privacidad</a></li>
-                <li class="contacto__item"><a href="#">Programa de fidelidad</a></li>
-                <li class="contacto__item"><a href="#">Nuestras tiendas</a></li>
-                <li class="contacto__item"><a href="#">Quiero ser franquiciado</a></li>
-                <li class="contacto__item"><a href="#">Anúncie aquí</a></li>
-            </ul>            
-        </section>
-        <section class="formulario">
-            <h2 class="formulario__title">Hable con nosotros</h2>
-            <form class="fomulario__form">
-                <input type="text" placeholder="Nombre" class="formulario__input">
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formulario__textarea" placeholder="Escribe tu mensaje"></textarea>
-                <button type="submit" class="formulario__btn">Enviar mensaje</button>
-            </form>
-        </section>
+        <div class="todo container__footer">
+            <section class="contacto">
+                <img src="./assets/IMG/Logo (1).svg" alt="logo2">
+                <ul class="contacto__lista">
+                    <li class="contacto__item"><a href="#">Quienes somos</a></li>
+                    <li class="contacto__item"><a href="#">Política de privacidad</a></li>
+                    <li class="contacto__item"><a href="#">Programa de fidelidad</a></li>
+                    <li class="contacto__item"><a href="#">Nuestras tiendas</a></li>
+                    <li class="contacto__item"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="contacto__item"><a href="#">Anúncie aquí</a></li>
+                </ul>            
+            </section>
+            <section class="formulario">
+                <h2 class="formulario__title">Hable con nosotros</h2>
+                <form class="fomulario__form">
+                    <input type="text" placeholder="Nombre" class="formulario__input">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formulario__textarea" placeholder="Escribe tu mensaje"></textarea>
+                    <button type="submit" class="formulario__btn">Enviar mensaje</button>
+                </form>
+            </section>
+        </div>
     </section>
    <footer class="footer">
        <div class="footer__rodape">

@@ -21,3 +21,9 @@
     color: #464646;
     background: #fff;
 }
+
+@media screen and (min-width:768px) {
+    .formulario__textarea{
+        height: 82px;
+    }
+}

@@ -1,3 +1,10 @@
 .formulario{
     margin-top: 2rem;
 }
+
+@media screen and (min-width:768px) {
+    .formulario{
+        margin-top: 0px;
+        width: 63%;
+    }
+}

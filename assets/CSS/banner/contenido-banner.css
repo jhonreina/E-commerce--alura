@@ -7,3 +7,14 @@
     margin: 0.8rem;
     color: #fff;
 }
+
+@media screen and (min-width:768px) {
+    .contenido__banner{
+        margin: 1.6rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .contenido__banner{
+        margin: 1.6rem 5.5rem;
+    }
+}

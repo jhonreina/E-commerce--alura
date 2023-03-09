@@ -4,3 +4,16 @@
     list-style: none;
    
 }
+
+@media screen and (min-width:768px) {
+    .contacto__lista li{
+        text-align: justify;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .contacto__lista {
+        margin: 0rem 1rem;
+        text-align: left;
+    }
+}
