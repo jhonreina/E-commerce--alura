@@ -3,17 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    
 }
 
-
+a{
+    list-style: none;
+    color: #fff;
+}
 .cabecera {
     display: flex;
     align-items: center;
     margin: 0.8rem;
     justify-content: space-between;
+   
 }
 
-.login{
+.login__btn{
     background-color: #fff;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
@@ -110,6 +115,13 @@
     }
     .container__footer{
         padding: 1.6rem 0;
+    }
+    .logo{
+        width: 176px;
+        height: 50px;
+    }
+    .input{
+        width: 393px;
     }
    
    

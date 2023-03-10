@@ -1,0 +1,13 @@
+.login__contenido{
+  width: 275px;
+  height: 189px;
+  text-align: center;
+  color: #464646;    
+}
+
+@media screen and (min-width:1024px) {
+    .login__contenido{
+        width: 423px;
+        height: 291px;
+    }
+}
