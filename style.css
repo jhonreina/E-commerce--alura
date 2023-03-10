@@ -34,6 +34,11 @@ a{
     position:relative;
 }
 
+.btn{
+    display: flex;
+    align-items: center;
+}
+
 .input {
     height: 40px;
     width: 272px;
@@ -122,6 +127,9 @@ a{
     }
     .input{
         width: 393px;
+    }
+    .container{
+        padding: 3.1rem 0px 0px 0px;
     }
    
    
