@@ -5,6 +5,7 @@
     margin-bottom: 0.8rem;
     justify-content: space-between;
     width: 48%;
+    position: relative;
 }
 .block{
     display: none;

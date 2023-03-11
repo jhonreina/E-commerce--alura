@@ -1,0 +1,13 @@
+.all__productos{    
+    color: #464646;
+    font-family: 'Raleway',
+    sans-serif;
+    padding: 1.6rem 1.6rem 0 1.6rem;
+    
+}
+
+@media screen and (min-width:1024px) {
+    .all__productos{
+        padding: 3.2rem 0 0rem 0;
+    }
+}

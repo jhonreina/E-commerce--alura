@@ -1,0 +1,12 @@
+.agregar__producto{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; 
+}
+
+@media screen and (min-width:768px) {
+   .agregar__producto{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+}

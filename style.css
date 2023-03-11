@@ -10,6 +10,17 @@ a{
     list-style: none;
     color: #fff;
 }
+
+.iconos {
+    position: absolute;
+    right: 0;
+    margin: 0.3rem;
+   
+}
+
+.iconos img{
+    padding-left: 0.5rem;
+}
 .cabecera {
     display: flex;
     align-items: center;
