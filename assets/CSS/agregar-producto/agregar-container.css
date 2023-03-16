@@ -1,0 +1,15 @@
+.agregar__container{
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+  .agregar__container--textarea{
+    position: relative;
+    box-sizing: border-box;  
+    height: 82px;  ;
+    margin-bottom: 0.8rem;
+  }

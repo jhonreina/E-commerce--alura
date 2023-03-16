@@ -4,11 +4,11 @@
     border: none;
     padding: 0.8rem 2rem;
     font-size: 0.7rem;
-    font-family: 'Raleway',
-    sans-serif;
+    font-family: 'Raleway',sans-serif; 
     font-weight: 400;
     margin:0;
 }
+
 
 @media screen and (min-width:1024px) {
     .login__btn{

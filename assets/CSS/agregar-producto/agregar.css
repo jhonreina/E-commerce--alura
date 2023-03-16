@@ -1,0 +1,11 @@
+.agregar{
+        background-color: #E5E5E5;
+        height: calc(100vh - 82px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #464646;
+        font-family: 'Raleway',sans-serif; 
+}
+
+
