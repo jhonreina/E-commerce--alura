@@ -117,14 +117,20 @@ a{
     .login{
         margin-right: 0px;
     }
-    .cabecera{
+    .login__btn{
+        margin-right: 0;
+    }
+    .login__btn--agregar{
+        margin-right: 0;
+    }
+    .cabecera{        
         margin: 0.8rem 1.6rem;
     }
     .container{
         padding: 1.6rem 1.6rem 0 1.6rem;
     }
     .container__footer{
-        padding: 0.8rem 0rem 0.8rem 0rem;
+        padding: 0.8rem 0.8rem 0.8rem 0rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
