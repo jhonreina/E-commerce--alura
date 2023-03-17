@@ -1,22 +1,22 @@
-.agragar__contenido{
-      display:flex;  
-      flex-direction: column;      
-      width:275px;
-      height: auto;
+.agragar__contenido{      
+      width:559px;
+      height:491px;
       text-align: start;
-      color: #464646;      
-}
+      color: #464646;
+      margin: 6.9rem auto;
 
-@media screen and (min-width:1024px) {
-    .agragar__contenido {
-        width: 559px;
       
-    }
 }
-@media screen and (max-width:768px) {
+ /* @media screen and (min-width:1024px) {
     .agragar__contenido {
-        width:100%;
-    
-        margin: 1.2rem;
+        width: 556px;
+        
     }
-}
+} */
+@media screen and (max-width:768px) {
+    .agragar__contenido {        
+        width: 92%;
+        margin-left: 1rem;
+        margin: 1rem auto;
+    }
+}  
