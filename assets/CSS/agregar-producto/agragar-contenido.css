@@ -1,6 +1,6 @@
 .agragar__contenido{
-      display:inline-block;  
-      flex-direction: column;
+      display:flex;  
+      flex-direction: column;      
       width:275px;
       height: auto;
       text-align: start;
@@ -10,13 +10,13 @@
 @media screen and (min-width:1024px) {
     .agragar__contenido {
         width: 559px;
-        height: auto;
+      
     }
 }
 @media screen and (max-width:768px) {
     .agragar__contenido {
         width:100%;
-        height: auto;
-        margin: 1.2rem    ;
+    
+        margin: 1.2rem;
     }
 }

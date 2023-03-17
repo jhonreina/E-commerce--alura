@@ -11,7 +11,7 @@
 
 @media screen and (max-width:768px) {
         .agregar{
-                display:  inline-flex;               
+                display: inline-block;               
                 width: 100%;
         }
 }
