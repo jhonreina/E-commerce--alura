@@ -6,10 +6,16 @@
     justify-content: space-between;
     width: 48%;
     position: relative;
+    flex-wrap: wrap;
 }
 .block{
     display: none;
 }
+
+ .producto__imagen--json{
+    width: 200px;
+    height: 174px;
+} 
 
 @media screen and (min-width:768px) {
     .producto{

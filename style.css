@@ -11,15 +11,23 @@ a{
     color: #fff;
 }
 
-.iconos {
+.iconos {    
     position: absolute;
-    right: 0;
+    right: 0px;
     margin: 0.3rem;
+    
    
 }
 
 .iconos img{
     padding-left: 0.5rem;
+}
+
+.btn-icono{
+    background-color: transparent;
+    width: 30px;
+    border: none;
+    cursor: pointer;
 }
 .cabecera {
     display: flex;

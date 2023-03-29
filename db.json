@@ -1,0 +1,64 @@
+{
+  "producto": [
+    {
+      "name": "Benzema",
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/benzema.jpg",
+      "price": "60.00",
+      "id": 1
+    },
+    {
+      "name": "Vinicius Jr",
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/vinicius.jpg",
+      "price": "60.00",
+      "id": 3
+    },
+    {
+      "name": "Mo Salah",
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/salah.jpg",
+      "price": "60.00",
+      "id": 4
+    },
+    {
+      "name": "Kylian Mbappé",
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/mbappe.jpg",
+      "price": "60.00",
+      "id": 5
+    },
+    {
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/modric.jpg",
+      "name": "Luka Modric",
+      "price": "100.00",
+      "id": 6
+    },
+    {
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/neymar.jpg",
+      "name": "neymar jr",
+      "price": "150.00",
+      "id": "fc348f68-687e-478b-9a39-db2bc50b7fa4"
+    },
+    {
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/bruyne.jpg",
+      "name": "Kevin De Bruyne",
+      "price": "180.00",
+      "id": "f6bee7fe-1b86-4895-8057-8cc03908f942"
+    },
+    {
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/dijk.jpg",
+      "name": "Virgil van Dijk",
+      "price": "120.00",
+      "id": "cb578116-52e4-46b5-a340-bfb783c67986"
+    },
+    {
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/mane2.jpg",
+      "name": "Sadio Mané",
+      "price": "160.00",
+      "id": "32b806b1-fa9f-434b-a31a-582b995685b0"
+    },
+    {
+      "imageUrl": "https://e00-especiales-marca.uecdn.es/futbol/images/top-100/grandes/silva.jpg",
+      "name": "Bernardo Silva",
+      "price": "160.00",
+      "id": "cc74c062-ee4c-482a-8849-b2927898e412"
+    }
+  ]
+}
